@@ -14,6 +14,7 @@
 		49C9869B1ECDD59C00226E91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C986991ECDD59C00226E91 /* Main.storyboard */; };
 		49C986A61ECDD59C00226E91 /* CreatePropertyCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C986A51ECDD59C00226E91 /* CreatePropertyCodeTests.m */; };
 		49C986B11ECDD59C00226E91 /* CreatePropertyCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C986B01ECDD59C00226E91 /* CreatePropertyCodeUITests.m */; };
+		49C986C01ECDD5C700226E91 /* NSObject+CodeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C986BF1ECDD5C700226E91 /* NSObject+CodeHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		49C986AC1ECDD59C00226E91 /* CreatePropertyCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreatePropertyCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C986B01ECDD59C00226E91 /* CreatePropertyCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreatePropertyCodeUITests.m; sourceTree = "<group>"; };
 		49C986B21ECDD59C00226E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49C986BE1ECDD5C700226E91 /* NSObject+CodeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CodeHelper.h"; sourceTree = "<group>"; };
+		49C986BF1ECDD5C700226E91 /* NSObject+CodeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CodeHelper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 				49C9868F1ECDD59C00226E91 /* AppDelegate.m */,
 				49C986941ECDD59C00226E91 /* ViewController.h */,
 				49C986951ECDD59C00226E91 /* ViewController.m */,
+				49C986BE1ECDD5C700226E91 /* NSObject+CodeHelper.h */,
+				49C986BF1ECDD5C700226E91 /* NSObject+CodeHelper.m */,
 				49C986971ECDD59C00226E91 /* Assets.xcassets */,
 				49C986991ECDD59C00226E91 /* Main.storyboard */,
 				49C9869C1ECDD59C00226E91 /* Info.plist */,
@@ -271,6 +276,7 @@
 			files = (
 				49C986961ECDD59C00226E91 /* ViewController.m in Sources */,
 				49C986931ECDD59C00226E91 /* main.m in Sources */,
+				49C986C01ECDD5C700226E91 /* NSObject+CodeHelper.m in Sources */,
 				49C986901ECDD59C00226E91 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
